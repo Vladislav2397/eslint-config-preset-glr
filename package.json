@@ -1,20 +1,28 @@
 {
-  "name": "eslint-react-config-glr",
+  "name": "eslint-config-presets-glr",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
     "eslint": ">= 9"
   },
   "exports": {
-    ".": {
-      "import": "./index.js",
-      "require": "./index.js"
+    "./config/react": {
+      "import": "./react.mjs",
+      "require": "./react.mjs"
+    },
+    "./config/vue": {
+      "import": "./vue.mjs",
+      "require": "./vue.mjs"
     }
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.15.0",
+    "typescript-eslint": "^8.24.1"
   }
 }
