@@ -30,6 +30,10 @@ export default [
             '@typescript-eslint/consistent-type-imports': 'off',
             '@typescript-eslint/no-empty-object-type': 'off',
             'no-irregular-whitespace': 'off',
+            'vue/html-self-closing': 'off',
+            'vue/no-v-text-v-html-on-component': 'off',
+            'vue/no-v-html': 'off',
         },
+        
     },
 ]

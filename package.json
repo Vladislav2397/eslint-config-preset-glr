@@ -12,11 +12,13 @@
   "exports": {
     "./config/react": {
       "import": "./react.mjs",
-      "require": "./react.mjs"
+      "require": "./react.mjs",
+      "types": "./types.d.ts"
     },
     "./config/vue": {
       "import": "./vue.mjs",
-      "require": "./vue.mjs"
+      "require": "./vue.mjs",
+      "types": "./types.d.ts"
     }
   },
   "devDependencies": {
