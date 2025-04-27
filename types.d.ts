@@ -1,4 +1,4 @@
 import type eslint from 'eslint'
-declare const config: eslint.Linter.Config[]
+import type { defineConfigWithVueTs } from '@vue/eslint-config-typescript'
 
-export default config
+export const defineConfig = defineConfigWithVueTs
