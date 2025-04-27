@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-presets-glr",
+  "name": "@glr/eslint-config",
   "private": true,
   "version": "0.1.1",
   "type": "module",
@@ -23,11 +23,8 @@
     }
   },
   "devDependencies": {
-    "@eslint/js": "^9.20.0",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint": "^9.25.1",
     "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.15.0",
-    "typescript-eslint": "^8.24.1"
+    "typescript": "^5.8.3"
   }
 }
