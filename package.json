@@ -11,11 +11,6 @@
     "eslint": ">= 9"
   },
   "exports": {
-    "./config/react": {
-      "import": "./react.mjs",
-      "require": "./react.mjs",
-      "types": "./types.d.ts"
-    },
     "./config/vue": {
       "import": "./vue.mjs",
       "require": "./vue.mjs",
